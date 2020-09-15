@@ -5,7 +5,6 @@ If the player gets the answer right it will tell you "correct"
 If they get the answer wrong they lose a life
 3) The game is generating a new question every turn until one 
 of the players have/has 0 lives 
-
 4) The loser is the one with 0 live
   the winner is the opposite that..... 
   GAME OVER and says Good Bye!
