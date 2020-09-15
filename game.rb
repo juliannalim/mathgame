@@ -26,7 +26,11 @@ class Game
 
   # nextRound
   def nextRound
-      puts "----- NEW TURN -----"
+      if (player1.dead || player2.dead)
+        
+      else 
+        puts "----- NEW TURN -----"
+      end
   end
 
   #Switch Between Players
@@ -65,5 +69,4 @@ class Game
     end
     gameOver
   end
-
 end
