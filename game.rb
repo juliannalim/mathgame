@@ -26,9 +26,7 @@ class Game
 
   # nextRound
   def nextRound
-      if (player1.dead || player2.dead)
-        
-      else 
+      unless (player1.dead || player2.dead)
         puts "----- NEW TURN -----"
       end
   end
